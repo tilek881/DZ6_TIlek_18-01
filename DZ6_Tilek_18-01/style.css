@@ -1,0 +1,70 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 30%;
+}
+
+.todo-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todolist-todo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.todolist-todo.completed span {
+  text-decoration: line-through;
+}
+
+.todolist-remove-todo {
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+}
+/* Домашнее Задание */
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+.block {
+  display: flex;
+  justify-content: center;
+}
+#buttonCountNumber {
+  display: flex;
+  justify-content: center;
+  color: green;
+  font-size: xxx-large;
+}
+#buttonCountMinus{
+  background: blue;
+  color: white;
+}
+#buttonCountPlus{
+  background: blue;
+  color: white;
+  margin: 8px;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+}

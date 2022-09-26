@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+    <body>
+    <div class="wrapper wrapper2">
+      <input
+        type="text"
+        name="todo-list-task-text"
+        id="todo-list-task-text"
+        placeholder="Сохраните свою задачу..."
+      />
+      <button id="todo-list-task-add-btn">Добавить</button>
+      <button id="todo-list-task-delete-btn">Удалить всё</button>
+      <select name="todo-list-task-filter" id="todo-list-task-filter">
+        <option value="0">All</option>
+        <option value="1">Completed</option>
+        <option value="2">Uncompleted</option>
+          <option value="3">Delete everything</option>
+      </select>
+      <ul class="todo-list" id="todo-list"></ul>
+    </div>
+
+
+
+
+    <div class="block">
+      <div id="counter">
+          <div class="text">Counter</div>
+          <div id="buttonCountNumber">0</div>
+          <div class="count">
+          <input type="button" id="buttonCountMinus" value="Lower count">
+          <input type="button" id="buttonCountPlus" value="Add count">
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="js.js"></script>
+  </body>
